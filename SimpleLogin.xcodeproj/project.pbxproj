@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C044AEF517127200007AEBD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C044AEF417127200007AEBD5 /* UIKit.framework */; };
+		C044AEF717127200007AEBD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C044AEF617127200007AEBD5 /* Foundation.framework */; };
+		C044AEF917127200007AEBD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C044AEF817127200007AEBD5 /* CoreGraphics.framework */; };
+		C044AEFF17127200007AEBD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C044AEFD17127200007AEBD5 /* InfoPlist.strings */; };
+		C044AF0117127200007AEBD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C044AF0017127200007AEBD5 /* main.m */; };
+		C044AF0517127200007AEBD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C044AF0417127200007AEBD5 /* AppDelegate.m */; };
+		C044AF0717127200007AEBD5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C044AF0617127200007AEBD5 /* Default.png */; };
+		C044AF0917127200007AEBD5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C044AF0817127200007AEBD5 /* Default@2x.png */; };
+		C044AF0B17127200007AEBD5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C044AF0A17127200007AEBD5 /* Default-568h@2x.png */; };
+		C044AF1B17127514007AEBD5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C044AF1917127514007AEBD5 /* LoginViewController.m */; };
+		C044AF2117127544007AEBD5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C044AF2017127544007AEBD5 /* LoginViewController.xib */; };
+		C044AF26171278CB007AEBD5 /* UIStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = C044AF25171278CB007AEBD5 /* UIStyler.m */; };
+		C044AF29171279FD007AEBD5 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C044AF28171279FD007AEBD5 /* BackgroundLayer.m */; };
+		C044AF2B17150849007AEBD5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C044AF2A17150848007AEBD5 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C044AEF117127200007AEBD5 /* SimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C044AEF417127200007AEBD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C044AEF617127200007AEBD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C044AEF817127200007AEBD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C044AEFC17127200007AEBD5 /* SimpleLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleLogin-Info.plist"; sourceTree = "<group>"; };
+		C044AEFE17127200007AEBD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C044AF0017127200007AEBD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C044AF0217127200007AEBD5 /* SimpleLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleLogin-Prefix.pch"; sourceTree = "<group>"; };
+		C044AF0317127200007AEBD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C044AF0417127200007AEBD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C044AF0617127200007AEBD5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C044AF0817127200007AEBD5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C044AF0A17127200007AEBD5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C044AF1817127514007AEBD5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C044AF1917127514007AEBD5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C044AF2017127544007AEBD5 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C044AF22171277B1007AEBD5 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C044AF24171278CB007AEBD5 /* UIStyler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIStyler.h; sourceTree = "<group>"; };
+		C044AF25171278CB007AEBD5 /* UIStyler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIStyler.m; sourceTree = "<group>"; };
+		C044AF27171279FD007AEBD5 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		C044AF28171279FD007AEBD5 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
+		C044AF2A17150848007AEBD5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C044AEEE17127200007AEBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C044AF2B17150849007AEBD5 /* QuartzCore.framework in Frameworks */,
+				C044AEF517127200007AEBD5 /* UIKit.framework in Frameworks */,
+				C044AEF717127200007AEBD5 /* Foundation.framework in Frameworks */,
+				C044AEF917127200007AEBD5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C044AEE817127200007AEBD5 = {
+			isa = PBXGroup;
+			children = (
+				C044AF23171277D1007AEBD5 /* Helper */,
+				C044AF22171277B1007AEBD5 /* Constants.h */,
+				C044AF1F17127539007AEBD5 /* Views */,
+				C044AF1D1712751D007AEBD5 /* Controllers */,
+				C044AEFA17127200007AEBD5 /* SimpleLogin */,
+				C044AEF317127200007AEBD5 /* Frameworks */,
+				C044AEF217127200007AEBD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C044AEF217127200007AEBD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C044AEF117127200007AEBD5 /* SimpleLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C044AEF317127200007AEBD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C044AF2A17150848007AEBD5 /* QuartzCore.framework */,
+				C044AEF417127200007AEBD5 /* UIKit.framework */,
+				C044AEF617127200007AEBD5 /* Foundation.framework */,
+				C044AEF817127200007AEBD5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C044AEFA17127200007AEBD5 /* SimpleLogin */ = {
+			isa = PBXGroup;
+			children = (
+				C044AF0317127200007AEBD5 /* AppDelegate.h */,
+				C044AF0417127200007AEBD5 /* AppDelegate.m */,
+				C044AEFB17127200007AEBD5 /* Supporting Files */,
+			);
+			path = SimpleLogin;
+			sourceTree = "<group>";
+		};
+		C044AEFB17127200007AEBD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C044AEFC17127200007AEBD5 /* SimpleLogin-Info.plist */,
+				C044AEFD17127200007AEBD5 /* InfoPlist.strings */,
+				C044AF0017127200007AEBD5 /* main.m */,
+				C044AF0217127200007AEBD5 /* SimpleLogin-Prefix.pch */,
+				C044AF0617127200007AEBD5 /* Default.png */,
+				C044AF0817127200007AEBD5 /* Default@2x.png */,
+				C044AF0A17127200007AEBD5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C044AF1D1712751D007AEBD5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C044AF1817127514007AEBD5 /* LoginViewController.h */,
+				C044AF1917127514007AEBD5 /* LoginViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C044AF1F17127539007AEBD5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C044AF27171279FD007AEBD5 /* BackgroundLayer.h */,
+				C044AF28171279FD007AEBD5 /* BackgroundLayer.m */,
+				C044AF2017127544007AEBD5 /* LoginViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C044AF23171277D1007AEBD5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C044AF24171278CB007AEBD5 /* UIStyler.h */,
+				C044AF25171278CB007AEBD5 /* UIStyler.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C044AEF017127200007AEBD5 /* SimpleLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C044AF0E17127200007AEBD5 /* Build configuration list for PBXNativeTarget "SimpleLogin" */;
+			buildPhases = (
+				C044AEED17127200007AEBD5 /* Sources */,
+				C044AEEE17127200007AEBD5 /* Frameworks */,
+				C044AEEF17127200007AEBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLogin;
+			productName = SimpleLogin;
+			productReference = C044AEF117127200007AEBD5 /* SimpleLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C044AEE917127200007AEBD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = badge.me;
+			};
+			buildConfigurationList = C044AEEC17127200007AEBD5 /* Build configuration list for PBXProject "SimpleLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C044AEE817127200007AEBD5;
+			productRefGroup = C044AEF217127200007AEBD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C044AEF017127200007AEBD5 /* SimpleLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C044AEEF17127200007AEBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C044AEFF17127200007AEBD5 /* InfoPlist.strings in Resources */,
+				C044AF0717127200007AEBD5 /* Default.png in Resources */,
+				C044AF0917127200007AEBD5 /* Default@2x.png in Resources */,
+				C044AF0B17127200007AEBD5 /* Default-568h@2x.png in Resources */,
+				C044AF2117127544007AEBD5 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C044AEED17127200007AEBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C044AF0117127200007AEBD5 /* main.m in Sources */,
+				C044AF0517127200007AEBD5 /* AppDelegate.m in Sources */,
+				C044AF1B17127514007AEBD5 /* LoginViewController.m in Sources */,
+				C044AF26171278CB007AEBD5 /* UIStyler.m in Sources */,
+				C044AF29171279FD007AEBD5 /* BackgroundLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C044AEFD17127200007AEBD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C044AEFE17127200007AEBD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C044AF0C17127200007AEBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C044AF0D17127200007AEBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C044AF0F17127200007AEBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleLogin/SimpleLogin-Prefix.pch";
+				INFOPLIST_FILE = "SimpleLogin/SimpleLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C044AF1017127200007AEBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleLogin/SimpleLogin-Prefix.pch";
+				INFOPLIST_FILE = "SimpleLogin/SimpleLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C044AEEC17127200007AEBD5 /* Build configuration list for PBXProject "SimpleLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C044AF0C17127200007AEBD5 /* Debug */,
+				C044AF0D17127200007AEBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C044AF0E17127200007AEBD5 /* Build configuration list for PBXNativeTarget "SimpleLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C044AF0F17127200007AEBD5 /* Debug */,
+				C044AF1017127200007AEBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C044AEE917127200007AEBD5 /* Project object */;
+}
