@@ -230,6 +230,10 @@ typedef enum {
 
 -(void) viewWillAppear:(BOOL)animated
 {
+    CAGradientLayer *bgLayer = [BackgroundLayer blueGradient];
+    bgLayer.frame = self.view.bounds;
+    [self.view.layer insertSublayer:bgLayer atIndex:0];
+    
     [self resetState];
 }
 
